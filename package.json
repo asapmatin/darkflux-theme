@@ -1,0 +1,21 @@
+{
+  "name": "darkflux",
+  "displayName": "DarkFlux",
+  "description": "DarkFlux is a sleek, modern, and eye-comfortable theme for visual code studio",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.102.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "DarkFlux",
+        "uiTheme": "vs-dark",
+        "path": "./themes/DarkFlux-color-theme.json"
+      }
+    ]
+  }
+}
