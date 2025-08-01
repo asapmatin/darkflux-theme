@@ -1,10 +1,35 @@
+
 {
 	"name": "DarkFlux",
 	"colors": {
-		"editor.background": "#293955",
+		"editor.background": "#2c345c",
 		"editor.foreground": "#ffffff",
-		"activityBarBadge.background": "#cc00ff83",
-		"sideBarTitle.foreground": "#ffffff"
+		"activityBarBadge.background": "#cc00ff",
+		"sideBarTitle.foreground": "#ffffff",
+
+
+		"sideBar.background": "#253e68",
+		"sideBar.foreground": "#ffffff",
+		"activityBar.background": "#1f3459",
+		"activityBar.foreground": "#fbfafa",
+		"activityBar.activeBorder": "#000000",
+		"statusBar.background": "#353535",
+		"statusBar.foreground": "#ffffff",
+		"titleBar.activeBackground": "#244175", 
+		"titleBar.activeForeground": "#ffffff",
+		"panel.background": "#101010",
+		"panel.border": "#333333",
+		"tab.activeBackground": "#2c345c",
+		"tab.inactiveBackground": "#103471",
+		"tab.activeForeground": "#ffffff",
+		"tab.inactiveForeground": "#888888",
+		"editor.selectionBackground": "#a9477ece",
+
+
+		"editor.lineHighlightBackground": "#cb79d44e",
+		"editor.lineHighlightBorder": "#f7f4f625", 
+		"editorCursor.foreground": "#ff00dd",
+		"editorCursor.background": "#00000000"
 	},
 	"tokenColors": [
 		{
@@ -149,10 +174,12 @@
 				"constant.escape",
 				"variable.parameter",
 				"keyword.other.unit",
+				"support.constant",
+				
 				"keyword.other"
 			],
 			"settings": {
-				"foreground": "#f4b5ff"
+				"foreground": "#72f61a"
 			}
 		},
 		{
@@ -161,7 +188,6 @@
 				
 				"constant.numeric",
 				"constant.language",
-				"support.constant",
 				"variable.parameter",
 			],
 			"settings": {
@@ -180,7 +206,7 @@
 				"meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
 			],
 			"settings": {
-				"foreground": "#faf171"
+				"foreground": "#ffee00"
 			}
 		},
 		{
@@ -289,7 +315,7 @@
 				"entity.other.attribute-name.class"
 			],
 			"settings": {
-				"foreground": "#ca57ff"
+				"foreground": "#b15eff"
 			}
 		},
 		{
@@ -393,7 +419,7 @@
 				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
 			],
 			"settings": {
-				"foreground": "#FFCB6B"
+				"foreground": "#ffcb6b"
 			}
 		},
 		{
